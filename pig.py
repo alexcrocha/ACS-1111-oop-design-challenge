@@ -14,5 +14,3 @@ class Pig(Move):
 
     def move(self, direction):
         print(f'Moving to the {direction}')
-
-    pass
