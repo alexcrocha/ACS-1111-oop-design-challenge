@@ -10,4 +10,3 @@ class Fruit():
 
     def fall(self):
         print(f'Falling at {fall_speed}')
-    pass
