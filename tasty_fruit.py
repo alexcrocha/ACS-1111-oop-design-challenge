@@ -12,4 +12,3 @@ class TastyFruit(Fruit):
 
     def boost_mood(self):
         print('BOOST MOOD')
-    pass
