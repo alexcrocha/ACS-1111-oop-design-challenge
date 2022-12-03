@@ -8,4 +8,3 @@ class RottenFruit(Fruit):
 
     def inflict_illness(self):
         print('Make PIG ill!')
-    pass
