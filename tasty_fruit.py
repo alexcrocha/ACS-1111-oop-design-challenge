@@ -8,7 +8,7 @@ class TastyFruit(Fruit):
         self.mood = mood
     
     def activate_bonus(self):
-        print('BONUS ACTIVATED')    
+        print('BONUS ACTIVATED')
 
     def boost_mood(self):
         print('BOOST MOOD')
