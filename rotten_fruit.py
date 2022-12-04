@@ -8,3 +8,6 @@ class RottenFruit(Fruit):
 
     def inflict_illness(self):
         print('Make PIG ill!')
+    
+    def introduce_fruit(self):
+        print(f'I am a rotten {self.name}! My point value is {self.points}')

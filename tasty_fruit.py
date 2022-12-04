@@ -12,3 +12,6 @@ class TastyFruit(Fruit):
 
     def boost_mood(self):
         print('BOOST MOOD')
+
+    def introduce_fruit(self):
+        print(f'I am a {self.name} and I am a tasty fruit! My point value is {self.points}')
