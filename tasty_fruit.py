@@ -15,7 +15,7 @@ class TastyFruit(Move):
         self.bonus = random.choice(bonus_list)
 
     def activate_bonus(self):
-        print("BONUS {self.bonus} ACTIVATED")
+        print(f"BONUS {self.bonus} ACTIVATED")
 
     def boost_mood(self):
         print("BOOST MOOD")
